@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="327dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="E-Sports sempre com você"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"/>
+
+</LinearLayout>
