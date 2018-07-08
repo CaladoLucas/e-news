@@ -15,5 +15,9 @@ class NoticiaActivity : AppCompatActivity() {
         var noticia = Noticias()
 
         webView.loadUrl(noticia.aleatoriaNoticia())
+
+        findViewById<Button>(R.id.btnSair).setOnClickListener {
+            this.finish()
+        }
     }
 }
